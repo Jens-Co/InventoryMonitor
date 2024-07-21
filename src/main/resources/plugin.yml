@@ -1,0 +1,22 @@
+name: InventoryMonitor
+version: '${version}'
+main: com.github.jensco.inventorymonitor.InventoryMonitor
+api-version: '1.21'
+commands:
+  monitor:
+    description: Main command for InventoryMonitor
+    usage: /monitor <reload|log|tempdisable>
+    permission: inventorymonitor.admin
+permissions:
+  inventorymonitor.alert:
+    description: Allows players to receive alert messages from InventoryMonitor.
+    default: op
+  inventorymonitor.check:
+    description: Allows administrators to view and manage alerts.
+    default: op
+  inventorymonitor.reload:
+    description: Reload InventoryMonitor
+    default: op
+  inventorymonitor.tempdisable:
+    description: Reload InventoryMonitor
+    default: op

@@ -1,0 +1,9 @@
+monitored-items:
+  DIAMOND: 150
+  EMERALD: 100
+  NETHERITE_INGOT: 70
+
+# Alert time between each alert in minutes. This option is to prevent spam.
+alert-time: 5
+
+alert-message: "Player: <gold>{player} <white>has {amount} {item} ({type})!"
