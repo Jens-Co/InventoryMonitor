@@ -23,14 +23,14 @@ Configuration
 
 The configuration file (config.yml) contains settings for monitored items, alert messages, and time intervals between alerts. Example configuration:
 
-yaml
-
+```yaml
 monitored-items:
   DIAMOND: 10
   GOLD_INGOT: 20
 
 alert-message: "<red>[ALERT] <gold>{player} has {amount} {item}!"
 alert-time: 5 # Time in minutes between alerts for the same item and player
+```
 
 Commands
 
@@ -60,9 +60,9 @@ Temporarily Disabling Monitoring
 
 To temporarily disable monitoring for a specific player, use the command:
 
-bash
-
+```bash
 /monitor tempdisable <player>
+```
 
 Alert Inventory Interface
 
